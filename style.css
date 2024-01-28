@@ -1,20 +1,90 @@
-*{
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-} 
-
-
-.container{
+    box-sizing: border-box;
+  }
+  
+  .heading {
+    text-align: center;
+    letter-spacing: 3px;
+    grid-area: text;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 30px;
+    color: #05daf7;
+    background-color: transparent;
+    text-shadow: -1vmin 1vmin 0 #141111;
+    
+  }
+  
+  .container {
     width: 100%;
     height: 100vh;
+  
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
+  
+  }
+  
+  h1 {
+    background-color: rgb(44, 41, 41);
+    background-color: rgb(44, 41, 41);
+    color: rgb(255, 254, 254);
+    padding: 15px;
+    position: fixed;
+  }
+  
+  
+  .button {
+    border: 2px solid rgb(0, 0, 0);
+    width: 161px;
+    height: 50px;
+    background-color: #bba8cf;
+    border-radius: 100px;
+    position: fixed;
+    margin-top: 424px;
+    cursor: pointer;
+    font-size: large;
+    margin-left: 29px;
+  }
+  
+  
+  .color-name {
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  
+  
+  /* xxxxxxxxxxxxxxxxxxxxxx nav xxxxxxxxxxxxxxxxxxxxxx */
+  
+  nav {
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(rgb(98, 101, 104), rgb(249, 251, 252), rgb(98, 101, 104));
+    line-height: 60px;
+    padding: 0px, 100px;
+    position: fixed;
+  }
+  
+  .nav h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    }
 
-.button{
-    width: 100px;
-    height: 40px;
-}
+  img{
+    width: 50%;
+    height: 100vh;
+    
+  }
